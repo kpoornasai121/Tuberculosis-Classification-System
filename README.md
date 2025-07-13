@@ -1,4 +1,4 @@
-# Tuberculosis Classification Web App
+# Tuberculosis Classification System
 
 This project implements a web application for classifying chest X-ray images as either **Normal** or **Tuberculosis** using a deep learning model. The application is built using **Streamlit** for the web interface and **TensorFlow** for loading and running the pre-trained model. The system is designed for research purposes only and is not intended for clinical diagnosis.
 
