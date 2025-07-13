@@ -26,16 +26,11 @@ To run this application, ensure you have the following installed:
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/kpoornasai121/Tuberculosis-Classification-System
    ```
 
 2. **Install Dependencies**:
-   Install the required Python packages using pip:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   Alternatively, install the packages manually:
+   Install the packages manually:
    ```bash
    pip install streamlit tensorflow numpy pillow
    ```
@@ -47,7 +42,7 @@ To run this application, ensure you have the following installed:
    ```
 
 4. **Prepare the Model**:
-   Ensure the pre-trained model file (`tb_classifier_model.keras`) is placed in the specified directory (`D:/1kpsD9/1Project/MAJOR/majorrr/` by default). Update the `MODEL_PATH` in `app.py` if your model is stored elsewhere.
+   Ensure the pre-trained model file (`tb_classifier_model.keras`) is placed in the specified directory. Update the `MODEL_PATH` in `app.py` if your model is stored elsewhere.
 
 ## Usage
 1. **Run the Streamlit App**:
